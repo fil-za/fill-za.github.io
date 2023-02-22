@@ -1,0 +1,82 @@
+/*Overall Map and TITLE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 10px;
+}
+/**
+* Create a position for the map
+* on the page */
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.map-overlay {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  margin-left: 10px;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+#features {
+  top: 0;
+  height: 150px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+/*POPUP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+h3 {
+border-top: 15px white;
+font-family: Open Sans, sans-serif;
+}
+p {
+font-size: 15px;
+font-family: Open Sans, sans-serif;
+}
+.my-popup .mapboxgl-popup-content {
+width: 200px;
+background: #fff;
+border-top: 50px white;
+padding: 20px;
+color: black;
+}
+
+/*LEGEND!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+#legend {
+ text-align: left; 
+ position: fixed;
+ bottom: 20px; 
+ right: 0px; 
+ width: 155px;
+ height:250px;
+ margin: 20px;
+ padding: 0px 20px;
+ background: #fff;
+ color: 80,80,80;
+ border-radius: 3px;
+ font-family: Open Sans, sans-serif;
+}
